@@ -1,32 +1,33 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background-color: rgb(218, 218, 247);
+    background-color: lightgray;
     }
 
     img {
     margin-top: 20px;
-    height: 200px;
+    height: 300px;
     border-radius: 5%;
 }
 
-.container {
+.main {
     background-color: #fff;
-    max-width: 250px;
+    max-width: 350px;
     margin: auto;
     margin-top: 10%;
     border-radius: 5%;
 }
 
-.p1 {
-    font-size: 0.9rem;
+h1 {
+    font-size: 1.3rem;
     font-weight: 700;
-    padding: 4px;
+    padding: 10px 20px;
 }
 
 p {
-    font-size: 12px;
-    padding-bottom: 8px;
+    font-size: 1rem;
+    padding: 0 20px 30px 20px;
+    margin: 0 20px 30px 20px;
 }
 
 a {
@@ -38,5 +39,6 @@ a:hover {
     color: rgb(9, 9, 199);
 }
 footer {
-    margin-top: 80px;
+    margin-top: 50px;
+    padding: 8px;
 }
